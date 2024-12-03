@@ -1,4 +1,6 @@
-<header class="modoOscuro">
+<header [class.modoOscuro]="esOscuro" [class.modoClaro]="!esOscuro">
+  <h1>Bienvenidos a una web más web de metros</h1>
+  <img width="100%" height="200" src="https://www.estambul.es/f/turquia/estambul/guia/metro.jpg" alt="Banner metro">
   <div>
     <label for="Nombre">Nombre</label>
     <input type="text" id="Nombre" name="Nombre">
@@ -11,4 +13,5 @@
     <label for="Ubicacion">Ubicacion</label>
     <input type="text" id="Ubicacion" name="Ubicacion">
   </div>
+  <button (click)="cambiarModo()">Cambiar Tema</button>
 </header>

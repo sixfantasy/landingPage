@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  Nombre: string = ""
-  Edad: string = ""
-  Ubicacion: string = ""
+  Nombre: string = "";
+  Edad: string = "";
+  Ubicacion: string = "";
+  esOscuro: boolean = false;
+  cambiarModo(){this.esOscuro = !this.esOscuro;}
+
 }

@@ -6,9 +6,22 @@
   background-color: var(--color-fondo-claro);
   color: var(--color-texto-claro);
 }
+header{
+  border-radius: 1rem;
+}
+h1{
+  text-align: center;
+  background-color: red;
+  color: white;
+  border-radius: 1rem 1rem 0 0;
+}
 div{
   margin: 2px;
-  border: 2px solid white;
+  border: 2px solid red;
   padding: 1rem;
+  border-radius: 1rem;
+}
+button {
+  border: 2px solid green;
   border-radius: 1rem;
 }

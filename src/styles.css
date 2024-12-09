@@ -6,6 +6,12 @@
         --title-text-color: #fff;
         --card-color: #fff;
         --card-text-color: black;
+    /*Colores modo claro*/
+        --bg-color-claro: #f0f0f0;
+        --title-color-claro: #333;
+        --title-text-color-claro: #131212;
+        --card-color-claro: #4f7cf7;
+        --card-text-color-claro: #fff;
 
     /*Fuentes de letra*/
         --primary-font: 'Nexa', sans-serif;

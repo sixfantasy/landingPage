@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    /*Colores modo oscuro*/
+        --bg-color: #757272;
+        --title-color: tomato;
+        --title-text-color: #fff;
+        --card-color: #fff;
+        --card-text-color: black;
+
+    /*Fuentes de letra*/
+        --primary-font: 'Nexa', sans-serif;
+}
+
+body{
+  background-color: var(--bg-color);
+}
+
+

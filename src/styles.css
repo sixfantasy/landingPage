@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 :root{
-<<<<<<< HEAD
     /*Colores modo oscuro*/
         --bg-color: #757272;
         --title-color: tomato;
@@ -23,12 +22,3 @@ body{
 }
 
 
-=======
-  --color-fondo-claro: #fff;
-    --color-fondo-oscuro: #111;
-    --color-texto-claro: #333;
-    --color-texto-oscuro: #eee;
-    --letra-grande: 1.5rem;
-    --letra-normal: 1rem;
-}
->>>>>>> 22b8898b41484e52de17e8ef4212b906bac5b6aa

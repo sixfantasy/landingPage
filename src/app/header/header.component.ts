@@ -10,6 +10,8 @@ export class HeaderComponent {
   Edad: string = "";
   Ubicacion: string = "";
   esOscuro: boolean = false;
+  esLetraGrande: boolean = false;
   cambiarModo(){this.esOscuro = !this.esOscuro;}
+  cambiarLetra(){this.esLetraGrande = !this.esLetraGrande}
 
 }

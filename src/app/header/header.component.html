@@ -1,17 +1,18 @@
-<header [class.modoOscuro]="esOscuro" [class.modoClaro]="!esOscuro">
+<header [class.modoOscuro]="esOscuro" [class.modoClaro]="!esOscuro" [class.letraGrande]="esLetraGrande" [class.letraNormal]="!esLetraGrande">
   <h1>Bienvenidos a una web más web de metros</h1>
   <img width="100%" height="200" src="https://www.estambul.es/f/turquia/estambul/guia/metro.jpg" alt="Banner metro">
   <div>
     <label for="Nombre">Nombre</label>
-    <input type="text" id="Nombre" name="Nombre">
+    <input type="text" id="Nombre" name="Nombre" [className]="esLetraGrande ? 'letraGrande': 'letraNormal' ">
   </div>
   <div>
     <label for="Edad">Edad</label>
-    <input type="text" id="Edad" name="Edad">
+    <input type="text" id="Edad" name="Edad" [className]="esLetraGrande ? 'letraGrande': 'letraNormal' ">
   </div>
   <div>
     <label for="Ubicacion">Ubicacion</label>
-    <input type="text" id="Ubicacion" name="Ubicacion">
+    <input type="text" id="Ubicacion" name="Ubicacion" [className]="esLetraGrande ? 'letraGrande': 'letraNormal' ">
   </div>
   <button (click)="cambiarModo()">Cambiar Tema</button>
+  <button (click)="cambiarLetra()">Cambiar Letra</button>
 </header>

@@ -4,4 +4,6 @@
     --color-fondo-oscuro: #111;
     --color-texto-claro: #333;
     --color-texto-oscuro: #eee;
+    --letra-grande: 1.5rem;
+    --letra-normal: 1rem;
 }
